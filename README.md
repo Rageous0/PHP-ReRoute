@@ -7,7 +7,7 @@ This may sound complex but isn't really, the most complex part is possibly the f
 How the configuration should work is simply by instructing your server to send the script handling routing and maybe possible 404 errors too.
 E.g /data will show the contents of / but get the request URI which is "/data" and match it in the routing.
 
-### BAsic example of a "Hello World" site.
+### Basic example of a "Hello World" site.
 ##### /index.php
 ```php
 <?php
@@ -33,3 +33,7 @@ $router->request('/', 'GET', function($res, $req) {
     echo 'Hello World!';
 });
 ```
+
+### Having issues?
+Make sure to share them so we can short it out!
+And maybe push out an update if needed.
