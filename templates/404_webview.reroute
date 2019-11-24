@@ -1,0 +1,17 @@
+##template
+<head>
+  <title>Resource failed to load!</title>
+</head>
+<body>
+  <!-- Error 404 -->
+  <!-- Author: Rageous0 -->
+  <h1>An Error Occured!</h1>
+  <hr />
+  <p>The resource could not be loaded.<br>
+  This is possibly caused by the page denying access or not existing.<br>
+  You may contact the website owner about this matter.</p>
+  <br />
+  <a href=\"#\" onclick=\"window.location.reload(true);\">Try again.</a>
+  <br /><br />
+  <p><b><%=url%></b> failed to load!</p>
+</body>
