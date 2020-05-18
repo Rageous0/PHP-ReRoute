@@ -36,3 +36,11 @@ $router->request('/', 'GET', function($res, $req) {
     echo 'Hello World!';
 });
 ```
+
+### New in 1.0.0?
+• Removed status function, due to http_status_code existing.
+
+• Modified README.md.
+
+• Removed templates due to being useless.
+
